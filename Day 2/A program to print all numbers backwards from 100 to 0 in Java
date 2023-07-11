@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class RevOfNum100to0 
+{
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int num=100, i;
+		System.out.print("Numbers from 100 to 0:\n ");
+		for(i = num; i >= 0; i--)
+		{
+			System.out.print(i +"\t"); 
+		}	
+	}
+}
